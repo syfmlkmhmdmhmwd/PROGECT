@@ -1,0 +1,230 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clr{
+    clear: both;
+}
+
+nav{
+    background-color: #c1c7d8;
+    overflow: hidden;
+}
+
+nav .logo{
+    float: left;
+    width: 80px;
+    margin: 10px 20px;
+}
+nav .logo img{
+    width: 100px;;
+
+}
+
+nav ul {
+list-style-type:none ;
+float: right;
+text-align: center;
+}
+
+nav ul li{
+    float: left;
+    text-align: center;
+    padding: 10px 15px;
+    margin: 0 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size:px ;
+}
+
+
+/* start about */
+
+.about{
+    background-image: url(../PROJECT/Photo/image-contact03.jpg);
+    height: 100vn;
+    background-position-x: center;
+    background-size: cover;
+    position: relative;
+}
+
+.about .text{
+
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.about .text h1{
+    font-size: 100px;
+    margin-bottom: 20px 0;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.about .text p{
+    color: white;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.about .text .btns{
+    position: absolute;
+bottom:-30%;
+left: 30%;
+}
+.about .text .btns .btn1{
+    padding: 20px 30px;
+    border: 0;
+    background-color: blue;
+    color: white;
+    margin: 10px;
+    color: black;
+    border-radius: 5px;
+}
+.about .text .btns .btn1{
+    padding: 20px 30px;
+    border: 0;
+    margin: 10px;
+    background-color:white;
+    color: white;
+    margin: 10px;
+    color: black;
+    border-radius: 5px;
+}
+
+.about .text .btns:hover{
+    background-color: white;
+    color: black;
+}
+
+.about .text .btns:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+.card .card-item{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 20px 10px;
+    margin: 20px 10px;
+}
+
+.card .card-item h2{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.card .card-item p{
+    font-size: 20px;
+    color: gray;
+    line-height: 50px;
+}o
+
+
+
+
+
+
+
+
+
+.protpholio{
+    background-color: rgba(128, 128, 128, 0.115);
+    overflow: hidden;
+    margin:40px 0;
+}
+
+.protpholio .img{
+    float: left;
+    width: 40%
+    
+}
+
+
+.protpholio .img .img{
+    width: 100%;
+}
+
+.protpholio .text{
+    float: right;
+    width: 40%;
+    margin: 40px 0;
+    margin-right: 60px ;
+}
+
+.protpholio .text h2{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.protpholio .text p{
+    color: gray;
+    font-size: 20px ;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+protpholio .text ul{
+    list-style-type: none;
+    padding: 40px 0
+}
+
+protpholio .text ul li{
+    padding:15px 0;
+}
+
+.protpholio .text .btn{
+    padding: 20px 39px;
+    color: white
+    blue
+
+}
+
+
+.img{
+    width: 100%;
+    margin: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+
+.img img{
+    float: left;
+    width: 20% ;
+    margin:20px 30px ;
+}
+
+
+
+
+
+
+
+footer {
+ text-align: center;
+ padding: 20px;
+ background-color: #f0f0f0;
+}
+footer p {
+ margin: 0;
+}
+footer a {
+ color: #333;
+ text-decoration: none;
+}
